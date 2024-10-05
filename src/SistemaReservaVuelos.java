@@ -24,9 +24,9 @@ public class SistemaReservaVuelos {
                 }
             } else if (opcion == 2) {
                 // Reservar asiento
-                System.out.print("Ingrese fila (1-10): ");
+                System.out.println("Ingrese fila (1-10): ");
                 int fila = sc.nextInt() - 1;
-                System.out.print("Ingrese número de asiento (1-6): ");
+                System.out.println("Ingrese número de asiento (1-6): ");
                 int asiento = sc.nextInt() - 1;
 
                 if (fila >= 0 && fila < 10 && asiento >= 0 && asiento < 6) {
